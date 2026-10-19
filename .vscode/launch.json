@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "1. Train (baseline + AutoML)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/train.py",       "console": "integratedTerminal" },
+    { "name": "2. Explain (SHAP)",            "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/explain.py",     "console": "integratedTerminal" },
+    { "name": "3. Serve",                     "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/app.py",         "console": "integratedTerminal" },
+    { "name": "4. Test client",               "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/test_client.py", "console": "integratedTerminal" }
+  ]
+}
